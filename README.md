@@ -1,51 +1,83 @@
-nimo-markdown-cv
-================
+# 项目演示
 
-<p align="center">
-<img src="assets/README-63bf9.png" width="700">
-</p>
+> 本仓库用于展示我在校期间开发的三个核心项目。每个项目均配有详细的**哔哩哔哩演示视频**，涵盖功能演示、架构设计与关键技术实现。
 
-A curriculum vitae template that lets you write your cv in Markdown and supports both HTML and PDF output formats. To generate the cv, we use [Jekyll](https://jekyllrb.com/).
+📧 邮箱：[1346954736@qq.com](mailto:1346954736@qq.com)  
+🌐 GitHub：[@ynwelc](https://github.com/ynwelc)  
+📱 电话：18928293565  
 
-The project is a fork from [markdown-cv](http://elipapa.github.io/markdown-cv) and the usage is essentially the same. We only provide an alternative styling theme.
 
-See Live example of this template [here](http://wodenimoni.com/nimo-markdown-cv/).
+## 🚀 项目展示
 
-***
+### 1. 实验室耗材管理系统（2024.03 – 2024.05）
+> 基于 SpringBoot + MyBatisPlus 的全流程耗材管理平台，支持申请、审批、库存更新。
 
-## Getting started
+**技术亮点**：
+- RESTful API + 多级审批流
+- 数据库索引优化，查询提速 30%
+- JUnit 单元测试覆盖率 >80%
 
-To start, simply [fork the nimo-markdown-cv repo](https://github.com/wodeni/nimo-markdown-cv)
+<div align="center">
+  <a href="https://www.bilibili.com/video/BV19RWdzxEF7/" target="_blank">
+    <img src="assets/1.jpg" alt="实验室耗材系统演示视频" width="700">
+  </a>
+</div>
 
-![](https://help.github.com/assets/images/help/repository/fork_button.jpg)
+<br>
 
-Your resume content will be contained in `index.md`, which has an example cv. Start by modifying `index.md`! To see the result, you have two options:
+---
 
-## Using Github Pages to publish it online
+### 2. B站微头条项目（2024.06 – 2024.08）
+> 仿 Bilibili 动态社区系统，实现用户动态发布、点赞、评论等社交功能。
 
-1. Go to *Settings* of you git repo. ![](assets/README-5d16f.png)
-2. In the *Github Pages* section, choose *master branch*, which will automatically build your cv and serve it on your free GitHub Pages website. ![](assets/README-0669e.png)
-3. Head to *yourusername*.github.io/nimo-markdown-cv to see your beautiful CV.
+**技术亮点**：
+- JWT 无状态认证
+- 高并发接口设计
+- Swagger API 文档集成
 
-Any change you want to make to your CV from then on would have to be done on the `master` branch and will be immediately rendered by Github Pages.
+<div align="center">
+  <a href="https://www.bilibili.com/video/BV1TP411v7v6" target="_blank">
+    <img src="assets/2.jpg" alt="B站微头条演示视频" width="700">
+  </a>
+</div>
 
-## Build it locally and print a PDF
+<br>
 
-1. [install jekyll](https://jekyllrb.com/docs/installation/) on your computer. `gem install jekyll` will do for most users.
-2. Clone your fork on your computer
-3. Type `jekyll serve` and you'll be able to see your CV on your local host (the default address is http://localhost:4000).
-4. You can edit the `index.md` file and see changes live in your browser.
-5. To print a PDF, just press *Print*. Print and web CSS media queries should take care of the styling.
+---
 
-## Build it locally by docker
+### 3. “小挑”宠物云平台 · AI交互模块（2024.09 – 2024.11）
+> 为“挑战杯”获奖项目提供 AI 对话后端服务，封装大模型调用逻辑。
 
-1. Clone your fork on your computer
-2. Type `make build` to set up service
-3. Type `make` or `make start`  to start service, then your can open `localhost:4000` on your local host to see your CV
-4. You can edit the `index.md` file and see changes live in your browser.
-5. Since the `jekyll-pdf` does not work well with this repo, try using Chrome's print feature, just right-click in your browser and click *print* tag
+**技术亮点**：
+- 第三方大模型代理接口
+- 缓存 + 异步优化，响应时间从 1.2s → 400ms
+- 高效前后端协作，联调一次通过率 100%
 
-## Generating PDFs in one command
+<div align="center">
+  <a href="https://www.bilibili.com/video/BV1pf421B71v/" target="_blank">
+    <img src="assets/3.jpg" alt="宠物云平台AI模块演示视频" width="700">
+  </a>
+</div>
 
-You can optionally integrate [jekyll-pdf](https://github.com/abeMedia/jekyll-pdf) to the package and automatically generate the PDF along with the HTML version. See more instructions in the [repo](https://github.com/abeMedia/jekyll-pdf). As of 02/07/2019, `jekyll-pdf` does not work well with this repo.
+<br>
 
+---
+
+## 💼 专业技能
+- **后端开发**：SpringBoot, MyBatis/MyBatisPlus, RESTful API, JWT
+- **数据库**：MySQL（索引优化、事务）、Redis、MongoDB
+- **工具链**：Git, Maven, Postman, IDEA, Linux 基础
+- **工程能力**：单元测试、接口文档（Swagger/Postman）、代码规范
+
+---
+
+## 🏆 荣誉奖项
+- 麒麟操作系统“揭榜挂帅”竞赛优胜奖（2025.10）  
+- 校级一等奖学金（专业前5%，2024.09）  
+- “挑战杯”校赛二等奖（团队负责人，2024.11）  
+- 全国高校计算机能力挑战赛三等奖（Java，2024.11）  
+- 大学英语四级（CET-4，2024.12）
+
+---
+
+> 🔗 所有视频均来自 [哔哩哔哩](https://www.bilibili.com/)，欢迎关注我的 [GitHub](https://github.com/ynwelc) 获取更多技术实践！
