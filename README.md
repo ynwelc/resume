@@ -1,4 +1,4 @@
-# 项目演示
+# 项目视频演示
 
 > 本仓库用于展示我在校期间开发的三个核心项目。每个项目均配有详细的**哔哩哔哩演示视频**，涵盖功能演示、架构设计与关键技术实现。
 
@@ -16,7 +16,7 @@
 - RESTful API + 多级审批流
 - 数据库索引优化，查询提速 30%
 - JUnit 单元测试覆盖率 >80%
-
+##### 点击下方图片即可跳转到项目视频展示
 <div align="center">
   <a href="https://www.bilibili.com/video/BV19RWdzxEF7/" target="_blank">
     <img src="assets/1.jpg" alt="实验室耗材系统演示视频" width="700">
@@ -34,7 +34,7 @@
 - JWT 无状态认证
 - 高并发接口设计
 - Swagger API 文档集成
-
+##### 点击下方图片即可跳转到项目视频展示
 <div align="center">
   <a href="https://www.bilibili.com/video/BV1TP411v7v6" target="_blank">
     <img src="assets/2.jpg" alt="B站微头条演示视频" width="700">
@@ -52,7 +52,7 @@
 - 第三方大模型代理接口
 - 缓存 + 异步优化，响应时间从 1.2s → 400ms
 - 高效前后端协作，联调一次通过率 100%
-
+##### 点击下方图片即可跳转到项目视频展示
 <div align="center">
   <a href="https://www.bilibili.com/video/BV1pf421B71v/" target="_blank">
     <img src="assets/3.jpg" alt="宠物云平台AI模块演示视频" width="700">
@@ -79,5 +79,3 @@
 - 大学英语四级（CET-4，2024.12）
 
 ---
-
-> 🔗 所有视频均来自 [哔哩哔哩](https://www.bilibili.com/)，欢迎关注我的 [GitHub](https://github.com/ynwelc) 获取更多技术实践！
